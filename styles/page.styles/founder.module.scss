@@ -1,0 +1,81 @@
+@import '../abstracts/variables';
+
+
+.founder_container {
+  max-width: 100vw;
+  padding: 0 12em !important;
+
+  .founder_about {
+    display: flex;
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+  }
+
+  .founder_about_img {
+    width: 30vw;
+     img {
+        width: 30vw;
+     }
+  }
+
+  .founder_about_info {
+
+    margin-top: 2em;
+    margin-left: 4em;
+
+    .founder_header_main {
+      font-size: 16px;
+      color: #1089FF;
+      font-weight: 600;
+
+    }
+    .founder_header {
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $sweet-blue;
+      font-size: 30px;
+      margin-bottom: 1em;
+
+    }
+    
+  }
+
+  .founder_details {
+    margin: 3em 0em;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+
+  .founder_container {
+    max-width: 100vw;
+    padding: 0 !important
+  }
+  .founder_container_inner {
+    margin: 2em !important;
+  }
+
+  .founder_about_info {
+    margin-top: 2em !important;
+    margin-left: 0em !important;
+  }
+
+  .founder_about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+  }
+
+  .founder_about_img {
+    width: 90vw !important;
+    margin-left: auto;
+    margin-right: auto;
+     img {
+        width: 90vw !important;
+        object-fit: cover;
+     }
+}
+}
