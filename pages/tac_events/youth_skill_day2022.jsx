@@ -1,6 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
-import {Plock} from 'react-plock';
+import dynamic from 'next/dynamic'
+
+const Plock = dynamic(
+  import('react-plock').then((mod) => mod.Plock),
+  { ssr: false }
+)
+
 
 const data = [
     {href: 'https://res.cloudinary.com/tacafrica/image/upload/v1660216605/my_folder/youth%20skill%20day/IMG-20220718-WA0022_olw7xn.jpg'},

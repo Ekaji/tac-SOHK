@@ -1,8 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 import Skeleton from 'react-loading-skeleton';
-import {Plock} from 'react-plock';
 import React, {useState, useEffect } from 'react';
+import dynamic from 'next/dynamic'
+
+const Plock = dynamic(
+  import('react-plock').then((mod) => mod.Plock),
+  { ssr: false }
+)
+
 
 
 const data = [

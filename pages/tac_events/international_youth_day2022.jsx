@@ -2,7 +2,13 @@
 /* eslint-disable react/jsx-key */
 import Skeleton from 'react-loading-skeleton';
 import React, {useState, useEffect } from 'react';
-import {Plock} from 'react-plock';
+import dynamic from 'next/dynamic'
+
+const Plock = dynamic(
+  import('react-plock').then((mod) => mod.Plock),
+  { ssr: false }
+)
+
 
 const data = [
     {
