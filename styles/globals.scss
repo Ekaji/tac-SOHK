@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../styles/base/reset';
-@import '../styles/base/typography';
 @import "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300&family=Roboto:wght@300;500&display=swap";
 @import 'https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200';
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap';
 @import '~video-react/styles/scss/video-react'; //react video styles
 @import 'https://fonts.googleapis.com/css2?family=Candal&family=Open+Sans:wght@300;400;500;600;700&display=swap';
+@import "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900";
 
 
 /*
@@ -86,6 +85,9 @@ body {
 }
 // 
 
+.poppins{
+  font-family:  "Poppins";
+}
 
 h1, h2, h3 {
   font-family: 'Candal', sans-serif;
@@ -146,4 +148,11 @@ a {
 #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #2b6cb0;
   /*Set to match the Tailwind colour you want the active one to be */
+}
+
+nav {
+  backdrop-filter: blur(0px) saturate(100%);
+  -webkit-backdrop-filter: blur(0px) saturate(100%);
+  background: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }

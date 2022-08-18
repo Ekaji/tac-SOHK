@@ -7,7 +7,11 @@ module.exports = {
     './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
-    extend: {   
+    extend: {  
+      backgroundImage: {
+        'mobileBG': "url('/projects/mobileHome.png')",
+        'desktopBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
+      },
       colors: {
         'main_blue': '#17466C', //Blue
         'light_blue': '#27557A', //Light_Blue

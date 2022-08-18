@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
-import VideoComp from '../components/videoPlayer/video';
+import VideoComp from './videoPlayer/video';
 import Link from 'next/link';
 import FormModal from './formModal';
 import { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 // import 'react-multi-carousel/lib/styles.css';
-import { ConditionalLinks } from '../components/conditionalLinks';
+import { ConditionalLinks } from './conditionalLinks';
 
 const PDFcomp = ({ children, pdfs }) => {
   const [modalShow, setModalShow] = useState(false);
@@ -45,10 +45,10 @@ const PDFcomp = ({ children, pdfs }) => {
   );
 };
 
-export default function LatestNews({ text2 }) {
+export default function Activities({ text2 }) {
   const data = [
     {
-      title: 'Taekwando Training',
+      title: 'Sports',
       media: {
         type: 'image',
         url: 'https://res.cloudinary.com/tacafrica/image/upload/v1660567184/my_folder/int%20youth%20day/1-2208130038_i3rttl.jpg',
@@ -59,17 +59,17 @@ export default function LatestNews({ text2 }) {
       textLink: '',
     },
     {
-      title: 'Tennis Clinic',
+      title: 'Office On The Go',
       media: {
         type: 'image',
-        url: 'https://res.cloudinary.com/tacafrica/image/upload/v1660567314/my_folder/int%20youth%20day/1-2208130101_h5gtbn.jpg',
+        url: 'https://res.cloudinary.com/tacafrica/image/upload/v1657886006/my_folder/team/hub_pnnwi1.jpg',
       },
       text: [  ],
       textLink: '/',
       blogLink: '/',
     },
     {
-      title: 'Chess Clinic',
+      title: 'Brain Gym',
       media: {
         type: 'image',
         url: 'https://res.cloudinary.com/tacafrica/image/upload/v1658796729/my_folder/mandella_and_chess_day/1-2207230018_fjwsk3.jpg',
@@ -80,7 +80,18 @@ export default function LatestNews({ text2 }) {
     },
     {
       title:
-        'Drone Club',
+        'Tec Hub',
+      media: {
+        type: 'image',
+        url: 'https://res.cloudinary.com/tacafrica/image/upload/v1657886056/my_folder/team/IMG_5451_tfl4so.jpg',
+      },
+      // text: "/",
+      blogLink:
+        '/',
+    },
+    {
+      title:
+        'Digital Specialized Training',
       media: {
         type: 'image',
         url: 'https://res.cloudinary.com/tacafrica/image/upload/v1660216604/my_folder/youth%20skill%20day/IMG-20220718-WA0026_dqzblt.jpg',
@@ -89,7 +100,17 @@ export default function LatestNews({ text2 }) {
       blogLink:
         '/',
     },
-  
+    {
+      title:
+        'Events',
+      media: {
+        type: 'image',
+        url: 'https://res.cloudinary.com/tacafrica/image/upload/v1659619565/my_folder/friendshipday2022/1-2207300093_s3x9cm.jpg',
+      },
+      // text: "/",
+      blogLink:
+        '/',
+    },
   ];
 
   const responsive = {

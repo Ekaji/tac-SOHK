@@ -13,7 +13,7 @@ const NavBar = () => {
 
   const navBarStyles = {
     backdropFilter: 'blur(0px) saturate(100%)',
-    webkitBackdropFilter: 'blur(0px) saturate(100%)',
+    WebkitBackdropFilter: 'blur(0px) saturate(100%)',
     background: ' rgba(255, 255, 255, 0.22)',
     border: '1px solid rgba(209, 213, 219, 0.3)',
   };
@@ -63,11 +63,13 @@ const NavBar = () => {
               type="button"
               key={data.label}
             >
-              <span key={data.label} className="hamburger-box">
+              <span key={data.label} className="hamburger-box text-sweet_blue">
                 <span
                   key={data.label}
-                  className="hamburger-inner"
-                ></span>
+                  className="hamburger-inner text-sweet_blue"
+                >
+                  
+                </span>
               </span>
             </button>
           </span>
