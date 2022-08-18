@@ -5,7 +5,7 @@ import Volunteer from '../components/volunteer.jsx'
 import OngoingProjects from '../components/ongoing_projects.jsx'
 import CardSlider from '../components/cardSlider.jsx'
 import VideoIntro from '../components/videoIntro.jsx'
-import LatestNews from '../components/latestNews'
+// import LatestNews from '../components/latestNews'
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Landing deviceType={deviceType} />
       {/* <VideoIntro /> */}
-      <LatestNews text2={'News'} />
+      {/* <LatestNews text2={'News'} /> */}
       <CardSlider text3={'Training'} text2={' Specialized skills'} text1={'Digital'} />
       <OngoingProjects />
       <Volunteer />
