@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
-import VideoComp from './videoPlayer/video';
 import Link from 'next/link';
 import FormModal from './formModal';
 import { useState } from 'react';
 import Carousel from 'react-multi-carousel';
-// import 'react-multi-carousel/lib/styles.css';
 import { ConditionalLinks } from './conditionalLinks';
 
 const PDFcomp = ({ children, pdfs }) => {
@@ -143,7 +141,7 @@ export default function Activities({ text2 }) {
           <h2 className="text-sweet_blue mx-auto pt-1.5 font-bold text-6xl">
             {/* {'News And '} */}
             {/* Latest{' '} */}
-            <span className="text-primary font-bold text-6xl ">
+            <span className="text-primary font-bold text-4xl ">
               {'Activities'}
               {/* {text2} */}
             </span>
@@ -177,17 +175,7 @@ export default function Activities({ text2 }) {
                 className={`   flex-none w-11/12 mr-8 overflow-hidden border  rounded-lg md:mr-4 md:pb-4`}
               >
                 <div className=" ">
-                  {edge.media.type == 'video' ? (
-                    <VideoComp videoSrc={edge.media.url} />
-                  ) : edge.media.type == 'pdf' ? (
-                    <PDFcomp pdfs={edge.media.downloadLink}>
-                      <img
-                        className="object-cover shadow-md hover:shadow-xl "
-                        src={edge?.media.url}
-                        alt={edge?.media.url}
-                      />
-                    </PDFcomp>
-                  ) : (
+                  { (
                     <Link href={edge.blogLink}>
                       <a target="_blank" rel="noreferrer">
                         <img
@@ -233,7 +221,7 @@ export default function Activities({ text2 }) {
                         {edge?.title}
                       </h3>
                     </div>
-                    <div className="text-sm line-clamp-5 ">
+                    {/* <div className="text-sm line-clamp-5 ">
                       <p className="text-center text-light_grey">
                         {edge?.text}
                         <a
@@ -244,7 +232,7 @@ export default function Activities({ text2 }) {
                           {' ' + edge?.textLink || null }
                         </a>
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </ConditionalLinks>
               </div>

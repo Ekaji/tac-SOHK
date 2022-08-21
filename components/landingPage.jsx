@@ -4,20 +4,16 @@ import Link from 'next/link';
 
 const  backgroundImg = '/projects/mobile_home.png'
 
-// const backgroundImg = '/public/projects/mobile_home.png'
 
 export default function LandingPage() {
   return (
     <section className="w-full">
-      <div className={'h-[90vh] bg-fixed bg-center bg-cover bg-mobileBG lg:bg-desktopBG' }>
-        <div className='h-[90vh] flex flex-col mt-auto mb-auto items-center'>
-          <h1 className='text-center text-7xl flex flex-col my-auto poppins text-sweet_blue font-bold' 
-          // style={{webkitTextStroke: '3px ', webkitTextFillColor: 'white'}} 
+      <div className={'h-[90vh] bg-fixed bg-center bg-cover bg-mobileBG lg:bg-desktopBG ' }>
+        <div className='w-full h-full  flex flex-col mt-auto mb-auto items-center' style={{background: 'rgba(3, 2, 3, 0.49)' }}>
+          <h1 className='text-center w-full bg- text-7xl flex flex-col my-auto poppins text-white font-bold z-50'
           >
-            <p >School</p>
-            <p>Of Hard</p>
-            <p>Knocks</p>
-            <p>Nigeria</p>
+            <p>School Of Hard</p>
+            <p>Knocks Nigeria</p>
           </h1>
         </div>
       </div>

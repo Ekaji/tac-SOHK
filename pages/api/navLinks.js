@@ -16,7 +16,7 @@ export const data = [
         type: 'dropdown button' 
     },
     {
-        label: 'labs',
+        label: 'Activities',
         content : [
             {href: '/drone_and_counter_drone', name: 'Drone And Counter Drone'},
             {href: '/cyber_security_and_cyber_defense', name: 'Cyber Security And Cyber Defense'},

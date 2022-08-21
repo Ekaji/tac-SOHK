@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Carousel from "react-multi-carousel";
-// import 'react-multi-carousel/lib/styles.css';
 
 const CardSlider = ({ text3, text2, text1 }) => {
   const data = [
