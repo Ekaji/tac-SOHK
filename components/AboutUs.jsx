@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function AboutUs() {
   return (
-    <div className='flex flex-col justify-center mx-auto w-[90vw] lg:w-5/12 lg:h-[80vh]'>
+    <div className='flex flex-col justify-center mx-auto w-[90vw] lg:w-5/12 h-[50vh] lg:h-[80vh]'>
       <h2 className='text-primary font-bold text-4xl text-center'>About Us</h2 >
       <p className='text-xl text-center'>School of Hard Knocks uses sport, a research-based curriculum and in-depth mentoring to help people improve their  physical and mental well-being.
               </p>

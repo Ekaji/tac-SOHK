@@ -5,8 +5,8 @@ import Link from 'next/link';
 export default function PeopleAreSaying() {
     return(
         <>
-        <div className="flex flex-col w-[90vw] py-4 mx-auto capitalize h-screen ">
-          <div className='lg:ml-4 flex'>
+        <div className="flex flex-col py-4 capitalize h-[110] lg:h-screen bg-[#FFF56D]">
+          <div className='flex flex-col w-[90vw] mx-auto lg:flex-row justify-center  pt-11 '>
             <div className='lg:w-5/12 '>
               <h2 className="text-sweet_blue mt-5 mb-8 font-bold lg:ml-4 text-6xl">
                 <span className="text-primary text-4xl ">
@@ -14,7 +14,7 @@ export default function PeopleAreSaying() {
                 </span>
               </h2>
 
-              <p className='text-xl'>
+              <p className='text-xl text-black'>
               “The impact SOHK had on my son’s 
               wellbeing is amazing, I take my hat 
               off for you guys. Whatever you doing 
@@ -24,12 +24,12 @@ export default function PeopleAreSaying() {
               bottom of my heart, you made a big 
               change into my son’s life..”
               </p>
-              <q className='font-bold text-black'>— Parent, Harold Cressy</q>
+              <q className='font-bold text-primary '>— Parent, Harold Cressy</q>
 
             </div>
             {/* <div> */}
               <img 
-              className='h-[80vh]  lg:ml-5 object-fill'
+              className='h-[80vh]  lg:ml-5 object-contain lg:object-fill'
               src="https://res.cloudinary.com/tacafrica/image/upload/v1660567202/my_folder/int%20youth%20day/1-2208130054_rfth9t.jpg" alt="" />
 
             {/* </div> */}

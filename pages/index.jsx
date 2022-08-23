@@ -5,6 +5,7 @@ import Activities from '../components/activities'
 import PeopleAreSaying from '../components/PeopleAreSaying.jsx'
 import Partners from '../components/Partners.jsx'
 import AboutUs from '../components/AboutUs.jsx'
+import Contact from '../components/Contact.jsx'
 
 
 export default function Home() {
@@ -19,7 +20,8 @@ export default function Home() {
       <AboutUs />
       <Activities text2={'News'} />
       <PeopleAreSaying />
-      <Partners />
+      {/* <Partners /> */}
+      <Contact />
     </div>
   )
 }
