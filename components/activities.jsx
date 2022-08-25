@@ -141,7 +141,7 @@ export default function Activities({ text2 }) {
           <h2 className="text-sweet_blue mx-auto pt-1.5 font-bold text-6xl">
             {/* {'News And '} */}
             {/* Latest{' '} */}
-            <span className="text-primary font-bold text-4xl ">
+            <span className="text-black uppercase font-bold text-4xl ">
               {'Activities'}
               {/* {text2} */}
             </span>

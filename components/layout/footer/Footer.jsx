@@ -25,7 +25,7 @@ export default function Footer() {
                         ABOUT US
                       </h3>
                       <p className="">
-                      TAC Africa is wholly committed to developing the Africa’s Economic and Security space through Digital Specialized Skills and Capacity building for Academia, Law Enforcement Agencies, Government Organizations and individuals by serving as catalyst through which Emerging Technological Solutions could be thought in a structured and easy to learn methodology
+                      
                       </p>
                     </div>
 
@@ -76,9 +76,7 @@ export default function Footer() {
                     </h3>
                     <div className="">
                       <p className="text-sm mb-1 text-white">
-                        TAC HQ: Plot 239 P.O.W Mafemi Crescent, Besides
-                        Daily Trust Newspapers, Utako District, Abuja,
-                        Nigeria. 900112
+                       
                       </p>
                       <hr className="w-4/5" />
                     </div>

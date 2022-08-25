@@ -58,7 +58,7 @@ const DropDownButton = ({
                       setIsShown(!isShown);
                       setMenuState(!menuState);
                     }}
-                    className={`capitalize block ${content[0].name ? "px-4 py-2" : undefined } 2xl:text-lg hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white `}
+                    className={`capitalize block ${content[0].name ? "px-4 py-2" : undefined } 2xl:text-lg text-[#393E46] hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white `}
                   >
                     { name }
                   </a>

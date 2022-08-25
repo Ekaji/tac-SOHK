@@ -18,7 +18,7 @@ module.exports = {
         'lighter_blue': '#17466C', //Lighter_Blue
         'lightest_blue': '#477E8F', //Lightest_Blue
         'transparent_blue': '#6E9AA8', //Transperent_Blue
-        'sweet_blue': '#144388', 
+        'sweet_blue': '#393E46', 
         'deep_blue': '#06295D',
         'dark_blue': '#0B3658', //Dark_Blue
         'main_grey': '#E8F0F6', //Grey

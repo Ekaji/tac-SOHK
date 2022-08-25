@@ -8,8 +8,8 @@ export default function PeopleAreSaying() {
         <div className="flex flex-col py-4 capitalize h-[110] lg:h-screen bg-[#FFF56D]">
           <div className='flex flex-col w-[90vw] mx-auto lg:flex-row justify-center  pt-11 '>
             <div className='lg:w-5/12 '>
-              <h2 className="text-sweet_blue mt-5 mb-8 font-bold lg:ml-4 text-6xl">
-                <span className="text-primary text-4xl ">
+              <h2 className="text-sweet_blue mt-5 mb-8 font-bold  text-6xl">
+                <span className="text-primary uppercase text-4xl ">
                   {'what people are saying'}
                 </span>
               </h2>

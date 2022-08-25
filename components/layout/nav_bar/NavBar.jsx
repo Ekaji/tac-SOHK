@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={` px-2 sm:px-4 py-2.5 rounded ${
+      className={` px-2 sm:px-4 py-2.5 ${
         menuState && 'h-screen'
       } lg:h-full`}
       style={{ ...navBarStyles }}
@@ -32,8 +32,8 @@ const NavBar = () => {
         <Link key={data.label} href={'/'}>
           <a key={data.label}>
             <img
-              src="/TAC_LOGO.webp"
-              className="mr-3 h-16 "
+              src="/SOHK_logo.png"
+              className="mr-3 h-20 "
               alt="tac Logo"
               key={data.label}
             />
@@ -102,7 +102,7 @@ const NavBar = () => {
                     <a key={data.label}>
                       <button
                         type="button"
-                        className="capitalize text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm 2xl:text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="capitalize text-black bg-[#FFC600] hover:text-[#FFC600] hover:bg-black focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm 2xl:text-lg px-5 py-2.5 text-center mr-2 mb-2"
                         key={data.label}
                       >
                         {label}
@@ -114,7 +114,7 @@ const NavBar = () => {
                     <a key={data.label}>
                     <button            
                       type="button"
-                      className="capitalize mt-80 lg:mt-0 py-2.5 px-5 mr-2 mb-2 text-sm 2xl:text-lg font-medium text-gray-900 focus:outline-none rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      className="capitalize mt-80 lg:mt-0 py-2.5 px-5 mr-2 mb-2 text-sm 2xl:text-lg font-medium text-gray-900 focus:outline-none rounded-full border border-gray-200 hover:text-[#FFC600] hover:bg-black focus:z-10 focus:ring-4 focus:ring-gray-200"
                       key={data.label}
                     >
                       {label}

@@ -18,11 +18,12 @@ export const data = [
     {
         label: 'Activities',
         content : [
-            {href: '/drone_and_counter_drone', name: 'Drone And Counter Drone'},
-            {href: '/cyber_security_and_cyber_defense', name: 'Cyber Security And Cyber Defense'},
-            {href: '/artificial_intelligence_and_robotics', name: 'AI And Robotics Lab'},
-            {href: '/blockchain_and_crypto_lab', name: 'Blockchain And Crypto Lab'},
-            {href: '/tech_for_social_good', name: 'Technology for social good'}
+            {href: '/sports', name: 'sports'},
+            {href: '/office_on_the_go', name: 'office on the go'},
+            {href: '/brain_gym ', name: 'brain gym'},
+            {href: '/tec_hub', name: 'tec hub'},
+            {href: '/digital_specialized_training', name: 'digital_specialized_training'},
+            {href: '/events', name: 'events'},
         ],
         type: 'dropdown button'
     },
