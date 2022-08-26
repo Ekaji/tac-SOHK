@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 
-import HeroBanner from '../components/layout/nav_bar/heroBanner.jsx'
 
 const NewAbout = () => {
 
@@ -29,7 +28,6 @@ const NewAbout = () => {
   return(
     <>
       <div className='m-0 p-0' >
-        <HeroBanner text={'About us'} bannerOverlay activeLink={'About us'}  backgroundImg={ backgroundImg } />
 
         <div className='w-[80vw] mx-auto'  >
           <h2 className='text-sweet_blue font-semibold pt-1.5' >Our Background </h2> 

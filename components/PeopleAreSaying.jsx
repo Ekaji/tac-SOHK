@@ -15,16 +15,9 @@ export default function PeopleAreSaying() {
               </h2>
 
               <p className='text-xl text-black'>
-              “The impact SOHK had on my son’s 
-              wellbeing is amazing, I take my hat 
-              off for you guys. Whatever you doing 
-              please don’t stop doing the wonderful 
-              work and time that you putting into 
-              your project. Thank You from the 
-              bottom of my heart, you made a big 
-              change into my son’s life..”
+              “Tennis didn't exist in my world until I heard of SOHK. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to SOHK for helping me discover a sport I can play well into my golden years.”
               </p>
-              <q className='font-bold text-primary '>— Parent, Harold Cressy</q>
+              <q className='font-bold text-primary '>— Student, Wale Martins</q>
 
             </div>
             {/* <div> */}

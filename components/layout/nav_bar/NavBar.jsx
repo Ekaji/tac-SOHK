@@ -98,7 +98,7 @@ const NavBar = () => {
                     />
                   </> //dropdown
                 ) : label == 'contact' ? (
-                  <Link href="#contact">
+                  <Link href="/#contact" >
                     <a key={data.label}>
                       <button
                         type="button"
