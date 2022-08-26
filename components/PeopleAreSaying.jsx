@@ -15,7 +15,7 @@ export default function PeopleAreSaying() {
               </h2>
 
               <p className='text-xl text-black'>
-              “Tennis didn't exist in my world until I heard of SOHK. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to SOHK for helping me discover a sport I can play well into my golden years.”
+              {`"Tennis didn't exist in my world until I heard of SOHK. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to SOHK for helping me discover a sport I can play well into my golden years.”`}
               </p>
               <q className='font-bold text-primary '>— Student, Wale Martins</q>
 
