@@ -1,14 +1,14 @@
 {
   "_app.js -> flowbite": {
-    "id": "_app.js -> flowbite",
+    "id": 1730,
     "files": [
-      "static/chunks/node_modules_flowbite_dist_flowbite_js.js"
+      "static/chunks/730.4217a92dbad570f2.js"
     ]
   },
   "_app.js -> tw-elements": {
-    "id": "_app.js -> tw-elements",
+    "id": 4619,
     "files": [
-      "static/chunks/node_modules_tw-elements_dist_js_index_min_js.js"
+      "static/chunks/f0f668f8.942af923964348ae.js"
     ]
   }
 }

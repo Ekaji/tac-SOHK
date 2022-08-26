@@ -20,7 +20,7 @@ export default function AboutUs() {
                   type="button"
                   className="capitalize text-black bg-[#FFC600] hover:text-[#FFC600] border border-primary hover:bg-black focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-xl text-sm 2xl:text-lg px-3 py-2.5 text-center mr-2 mb-2 "
                 >
-                  {'Become a member'}
+                  { 'Become a member' }
                 </button>
               </a>
             </Link>
