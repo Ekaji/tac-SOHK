@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function PeopleAreSaying() {
     return(
         <>
-        <div className="flex flex-col py-4 capitalize h-[110] lg:h-screen bg-[#FFF56D]">
+        <div className="flex flex-col py-4 capitalize h-[110] lg:h-screen bg-[#FFC600]">
           <div className='flex flex-col w-[90vw] mx-auto lg:flex-row justify-center  pt-11 '>
             <div className='lg:w-5/12 '>
               <h2 className="text-sweet_blue mt-5 mb-8 font-bold  text-6xl">

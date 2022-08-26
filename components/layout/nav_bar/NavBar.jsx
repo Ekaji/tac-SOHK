@@ -97,12 +97,12 @@ const NavBar = () => {
                       menuState={menuState}
                     />
                   </> //dropdown
-                ) : label == 'blog' ? (
-                  <Link href="/blog">
+                ) : label == 'contact' ? (
+                  <Link href="#contact">
                     <a key={data.label}>
                       <button
                         type="button"
-                        className="capitalize text-black bg-[#FFC600] hover:text-[#FFC600] hover:bg-black focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm 2xl:text-lg px-5 py-2.5 text-center mr-2 mb-2"
+                        className="capitalize text-black bg-[#FFC600] hover:text-[#FFC600] hover:bg-black border border-primary  focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm 2xl:text-lg px-5 py-2.5 text-center mr-2 mb-2"
                         key={data.label}
                       >
                         {label}

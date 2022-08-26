@@ -35,15 +35,6 @@ export const data = [
         type: 'nav link'
     },
     {
-        label: 'blog',
-        content: [
-            {href: 'blog'}
-        ],
-        type: 'button',
-        details: {variant: 'primary'}
-
-    },
-    {
         label: 'Events',
         content: [
             {href: 'tac_events'}
